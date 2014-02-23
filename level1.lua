@@ -7,7 +7,7 @@
 local composer = require( "composer" )
 local scene = composer.newScene()
 
-local gameTime = 0.05 -- Total game time in minutes
+local gameTime = 1 -- Total game time in minutes
 local gameSeconds = gameTime * 60
 local secondsLeft = gameSeconds
 -- tick once a second
